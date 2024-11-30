@@ -7,7 +7,6 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<!-- partial:index.partial.html -->
 <div class="form-body">
         <div class="row">
             <div class="form-holder">
