@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'PinyonScriptRegular';
+    src: url('../font/PinyonScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pinyon Script';
+        src: url('../font/PinyonScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GlacialIndifferenceRegular';
+        src: url('../font/GlacialIndifference-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GlacialIndifferenceBold';
+    src: url('../font/GlacialIndifference-Bold.otf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+body {
+    background: #000;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 80%;
+    margin: 8em auto 5em auto;
+    text-align: center;
+    background: #000 url("../img/skull.png") no-repeat center 2em;
+}
+
+.head { 
+    margin: 2% auto 2em auto;
+    margin-top: -120px;
+}
+
+.head .title {
+    display: block;
+    font-family: PinyonScriptRegular;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 5.5em;
+    line-height: 85%;
+    margin-bottom: 0.125em;
+    padding-left: 0.75em;
+}
+
+.head .subtitle {
+    display: block;
+    font-family: GlacialIndifferenceRegular;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 0.85em;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: #111;
+    padding: 0.75em 1em;
+    border-top: 1px dashed #222;
+    border-bottom: 1px dashed #222;
+    text-shadow: -1px -1px 1px #000;
+}
+
+.break { 
+    /*padding-left: 4em;*/
+    margin-top: -1.6em;
+}
+.dir{
+    clear: both;
+    font-family: GlacialIndifferenceRegular;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    padding-top: 0.15em;
+    text-align: left;
+}
+.dir img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;    
+}
+.dir .bullet{
+    display: inline-block;
+    padding: 0 0.5em;
+    color: #777;
+}
+.dir a{
+    color: #e8e8e8;
+    text-decoration: none;
+    padding: 4px 14px 6px 14px;
+}
+.dir a:hover{
+    color: darkorange;
+    border-top: 1px dashed #ee90be;
+    border-bottom: 1px dashed #ee90be;
+    background: #222;
+    text-shadow: -1px -1px 1px #000;
+}
+.nav {
+    clear: both;
+    font-family: GlacialIndifferenceRegular;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.25em;
+    padding-top: 4em;
+    padding-left: 4.75em;
+}
+
+.nav .bullet {
+    display: inline-block;
+    padding: 0 0.5em;
+    color: #777;
+}
+
+.nav a {
+    color: #e8e8e8;
+    text-decoration: none;
+    padding: 4px 14px 6px 14px;
+}
+
+.nav a:hover {
+    color: darkorange;
+    border-top: 1px dashed #ee90be;
+    border-bottom: 1px dashed #ee90be;
+    background: #222;
+    text-shadow: -1px -1px 1px #000;
+}
+
+.footer {
+    color: #444;
+    font-size: 0.65em;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1.3em 0 1em 0;
+    background: #111 url("../img/bg.png");
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-top: 1px dashed #333;
+}
+
+.footer .latin {
+    display: inline-block;
+    font-family: PinyonScriptRegular;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.0em;
+    text-transform: capitalize;
+    margin: 6px 0 0 0;
+    line-height: 85%;
+}
+
+article {
+    text-align: left;
+    color: #666;
+    line-height: 175%;
+    font-family: monospace;
+    font-size: 1em;
+}
+
+.dotted-underline {
+    text-transform: uppercase;
+    font-family: GlacialIndifferenceRegular;
+    border-bottom: 1px dashed #333;
+    padding-bottom: 0.4em;
+    text-shadow: -1px 1px 0 #111;
+    border-top: 1px dashed #333;
+    padding-top: 0.4em;
+    margin-top: 5em;
+    text-align: center;
+    background: #111 url("../img/bg.png");
+    font-size: 0.85em;
+    color: #ee90be;
+    color: #666;
+    font-weight: bold;
+}
+
+@media (min-width: 1024px) {
+    article { text-align: justify;}
+    .left, .right { width: 42%; }
+    .left { float: left; }
+    .right { float: right; }
+}
+
+article a {
+    color: #e765a4;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+article a:hover { color: #fff;}
+
+.article-title {
+    color: #ee90be;
+    border-bottom: 1px dashed #ee90be;
+    font-family: PinyonScriptRegular;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.5em;
+    line-height: 85%;
+    margin-bottom: 0.125em;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .nav .bullet { display: none; }
+    .nav a { display: block; }
+    .head .title { font-size: 5em; }
+    .footer { display: none; }
+}
+
+@media (max-height: 660px) { .footer { display: none; } }

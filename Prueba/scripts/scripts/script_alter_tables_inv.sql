@@ -1,0 +1,1 @@
+--2 archivo importante antes de ejecutar todo este da las opciones de insert en las tablas 
