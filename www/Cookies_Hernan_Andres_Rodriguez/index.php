@@ -16,8 +16,8 @@
                         <h3 class="text-center">Crear o Borrar Cookies en Sesion</h3>
                         <p class="text-center">
                             <?php
-                            if (isset($_COOKIE['PROYECTO'])) {
-                                echo "Cookie creada: <span class='text-warning'>" . $_COOKIE['PROYECTO'] . "</span>";
+                            if (isset($_COOKIE['GALLETAS'])) {
+                                echo "Cookie creada: <span class='text-warning'>" . $_COOKIE['GALLETAS'] . "</span>";
                             } else {
                                 echo "Cookie Borrada.";
                             }
